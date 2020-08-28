@@ -69,11 +69,11 @@
     currentAsset: undefined
   };
   const defaultConfiguration = {
-    classifications: [
+    Object: [
       {
         name: "model",
         instructions: "Select the car model",
-        type: "radio",
+        type: "segmentation",
         options: [
           {
             value: "model_s",
@@ -88,30 +88,6 @@
             label: "Tesla Model X"
           }
         ]
-      },
-      {
-        name: "image_problems",
-        instructions: "Select all that apply",
-        type: "checklist",
-        options: [
-          {
-            value: "blur",
-            label: "Blurry"
-          },
-          {
-            value: "saturated",
-            label: "Over Saturated"
-          },
-          {
-            value: "pixelated",
-            label: "Pixelated"
-          }
-        ]
-      },
-      {
-        name: "description",
-        instructions: "Describe this image",
-        type: "text"
       }
     ]
   };
