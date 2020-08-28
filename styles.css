@@ -3,7 +3,7 @@
     src: url('WEB/SBBWeb-Roman.eot');
     src: url('WEB/SBBWeb-Roman.ttf') format('truetype');
     src: url('WEB/SBBWeb-Roman.woff') format('woff');
-    src: url('WEB/SBBWeb-Roman.woff2');
+    src: url('WEB/SBBWeb-Roman.woff2') format('woff2');
 }
 html{
     font-family: 'SBBWeb', sans-serif;
@@ -48,7 +48,10 @@ html{
   }
   
   .btn{
-  background-color: #EB0000
+  background-color: #EB0000;
+  text-align: center;
+  font-family: 'SBBWeb', sans-serif;
+
 
   }
   .btn:visited{
