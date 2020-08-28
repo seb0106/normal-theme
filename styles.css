@@ -28,7 +28,9 @@ html{
   }
   .sidebar{
     display: flex;
-    height: 100vh;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     border-right: 1px solid #f6f6f6;
     width: 300px;
     min-width: 300px;
