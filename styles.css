@@ -1,9 +1,9 @@
 @font-face{
     font-family: 'SBBWeb';
-    src: url('WEB/SBBWeb-Roman.eot');
-    src: url('WEB/SBBWeb-Roman.ttf') format('truetype');
-    src: url('WEB/SBBWeb-Roman.woff') format('woff');
-    src: url('WEB/SBBWeb-Roman.woff2') format('woff2');
+    src: url('WEB/SBBWeb-Light.eot');
+    src: url('WEB/SBBWeb-Light.ttf') format('truetype');
+    src: url('WEB/SBBWeb-Light.woff') format('woff');
+    src: url('WEB/SBBWeb-Light.woff2') format('woff2');
 }
 html{
     font-family: 'SBBWeb', sans-serif;
